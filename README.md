@@ -5,6 +5,6 @@
         <p>Para correr el sql hay que tener la base de datos creada con el nombre <b>marketplace</b></p>
     </li>
     <li>
-        <p>Para probar nuevos cambios hay que borrar los esquemas y las tablas que se crean con el sql ;)</p>
+        <p>Para probar nuevos cambios hay que borrar los esquemas y las tablas que se crean con el sql ;) con las lineas que estan en el drop sql</p>
     </li>
 </ul>
