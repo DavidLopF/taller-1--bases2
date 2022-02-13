@@ -1,5 +1,4 @@
 CREATE SCHEMA users
-
     CREATE TABLE users.user(
 
         id SERIAL PRIMARY KEY,
@@ -33,14 +32,10 @@ CREATE SCHEMA users
         id SERIAL PRIMARY KEY,
         user_id INTEGER NOT NULL,
         FOREIGN KEY (user_id) REFERENCES users.user(id) ON DELETE CASCADE
-    )
+    );
 
-/*
-    Esquema productos en donde se guardan los productos normales, el tipo y los detalles del mismo
-*/
 
 CREATE SCHEMA products
-
     CREATE TABLE products.product(
         id SERIAL PRIMARY KEY,
         name VARCHAR(255) NOT NULL,
@@ -67,7 +62,6 @@ CREATE SCHEMA products
         size VARCHAR(255) NOT NULL,
         color VARCHAR(255) NOT NULL,
         FOREIGN KEY (product_id) REFERENCES products.product(id) ON DELETE CASCADE
-    )
-
+    );
 
 
