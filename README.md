@@ -1,3 +1,12 @@
 ﻿# taller-1
  
- #Antes de correr el sql  crear la base de datos ;)
+<h1>Info importante</h1>
+
+<ul>
+    <li>
+        <p>Para correr el sql hay que tener la base de datos creada con el nombre <b>marketplace</b></p>
+    </li>
+    <li>
+        <p>Para probar nuevos cambios hay que borrar los esquemas y las tablas que se crean con el sql ;)</p>
+    </li>
+</ul>
