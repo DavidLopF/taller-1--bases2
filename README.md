@@ -14,6 +14,7 @@
 # Informacion importante
 - En la carpeta documents esta el documento que generamos y respondemos a cada punto solicitado en el taller
 - En la carpeta database se encuentran:
+
         1. dropdatabase : consulta para eliminar la base de datos
         2. Marketplace : Scrip que crea la base de datos
         3. Carpeta views : Alli se encuetran por separado las vistas que se crearon para este taller
