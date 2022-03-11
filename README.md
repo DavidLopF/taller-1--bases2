@@ -11,7 +11,7 @@
 - Briannys Ahiram, Páez Monserrate
 - David Leonardo, Lopez Forero
 
-# Informacion importante
+# Información importante
 - En la carpeta documents esta el documento que generamos y respondemos a cada punto solicitado en el taller
 - En la carpeta database se encuentran:
 
