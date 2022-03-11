@@ -129,6 +129,8 @@ CREATE TABLE marketplace.order(
     FOREIGN KEY (payment_id) REFERENCES marketplace.payment(id) ON DELETE CASCADE,
     buyer_id INTEGER NOT NULL,
     FOREIGN KEY (buyer_id) REFERENCES marketplace.buyer(id) ON DELETE CASCADE,
+    shopping_card_id INTEGER NOT NULL,
+    FOREIGN KEY (shopping_card_id) REFERENCES marketplace.shopping_cars(id) ON DELETE CASCADE,
     shippment_details_id INTEGER NOT NULL,
     FOREIGN KEY (shippment_details_id) REFERENCES marketplace.shippment_details(id) ON DELETE CASCADE,
     status VARCHAR(255) NOT NULL DEFAULT 'pending',
@@ -168,9 +170,5 @@ CREATE INDEX marketplace_payment_type_card_id_idx ON marketplace.payment_type (c
 CREATE INDEX marketplace_order_payment_id_idx ON marketplace.order (payment_id);
 
 
-/*notas : 
-    - se agrego stauts y price a la orden para saber si esta pendiente o no
-    - Se le agrego un estado al proveedor para saber si esta activo o no
-*/
 
 
