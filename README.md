@@ -19,7 +19,7 @@
         2. Marketplace : Scrip que crea la base de datos
         3. Carpeta views : Alli se encuetran por separado las vistas que se crearon para este taller
 
-# Para correr el scrip
+# Para correr el script
 
 1. Se debe crear una base de datos en postgres con el nombre marketplace
 2. Luego se debe correr el script de importacion de datos en la consola por medio del comando:
